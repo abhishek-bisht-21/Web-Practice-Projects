@@ -61,10 +61,10 @@ console.log(fn(5))
 
 	Functions are first class Citizens, functions are treated as a variable.
 	1) assignment -> fn expression variable can be passed as a parameter.
-	2) function can be passed as a parameter.
-	3) Callbacks and Higher Order functions
-	4) We can also return a function from a function
-	5) closure
+	2) A function can be passed as a parameter. Callbacks and Higher Order functions
+	3) We can also return a function from a function.  closure
+	
+	
 
 */
 
