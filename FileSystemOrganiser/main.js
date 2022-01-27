@@ -1,4 +1,13 @@
 
+/*
+To make it Global
+
+1) process.cwd() -> Jahan isko run karoge vahan ka path apne aap pick krlega.
+2) Shebang syntax is used to make anything global. If we want anything to be present in the command line.
+
+*/ 
+
+
 let fs = require("fs");
 let path = require("path")
 
@@ -12,7 +21,7 @@ let types = {
 	app: ['exe', 'dmg', 'pkg', 'deb']
 }
 
-
+// __________________________________________Commands to Run this code____________________________________________________
 // node main.js tree "directoryPath"
 // node main.js organise "directoryPath"
 // node main.js help 
