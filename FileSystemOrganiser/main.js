@@ -4,7 +4,7 @@ To make it Global
 
 1) process.cwd() -> Jahan isko run karoge vahan ka path apne aap pick krlega.
 2) Shebang syntax is used to make anything global. If we want anything to be present in the command line.
-
+3) We also have to npm link it. (npm init -y) and (npm link) commands have to be used.
 */ 
 
 
