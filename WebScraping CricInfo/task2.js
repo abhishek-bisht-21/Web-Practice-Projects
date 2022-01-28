@@ -52,12 +52,14 @@ function extractHTML(html) {
 	    if(lTeamName == teamName){
 		// console.log(teamName); 
 		let tableElem = $(innigsArr[i]).find(".table.bowler");
-            	let allBowlers = $(tableElem).find("tr");
+            	let allBowlers = $(tableElem).find("tr"); // All bowlers rows is here.
 		
 		for(let j = 0;j<allBowlers.length;j++){
+			// Now one by one picking up each player in the bowling list and comapring their wickets taken
 			let allColsOfPlayer = $(allBowlers[j]).find("td");
 			let playerName = $(allColsOfPlayer[0]).text();
                	        let wickets = $(allColsOfPlayer[4]).text();
+			 // After comparisons set the highest wickets and wicket taker name      
                		 if (wickets >= hwt) {
                   		hwt = wickets;
                 		hwtName = playerName;
