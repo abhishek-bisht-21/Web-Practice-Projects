@@ -2,8 +2,8 @@
 # File System Manager 🔧
 
 This project focuses on various in built modules  of NodeJs such as File System,
-Path,child. The Script helps in organizing files according to their
-utility, then stores them in different files respectively. It also helps 
+Path,child. The Script helps to sort files according to their
+utility, then organizes them in different files respectively. It also helps 
 us to know the Tree Structure of that particular Folder.
 
 Commands to Run the Script
