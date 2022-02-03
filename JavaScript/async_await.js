@@ -42,7 +42,7 @@ async function serveOrder(){
 	console.log(processedOrder)
 		
 	} catch (error) {
-		console.log(error)
+		console.log(error);
 	}
 
 
